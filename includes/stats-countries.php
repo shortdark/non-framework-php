@@ -291,7 +291,7 @@ class CountriesClass extends StatsBaseClass
             $y++;
         }
 
-        $this->svg_bit .= "  <a xlink:title=\"Remaining Countries: $this->remaining%\"><path class=\"land\" d=\"M$this->radius,$this->radius L$this->newx,$this->newy A$this->radius,$this->radius 0 $this->large,1 $this->radius,0 z\" fill=\"$this->remaining_color\" stroke=\"black\" stroke-width=\"1\" fill-opacity=\"1\" /></a>\n";
+        $this->svg_bit .= "  <a xlink:title=\"Remaining Countries: $this->remaining_perc%\"><path class=\"land\" d=\"M$this->radius,$this->radius L$this->newx,$this->newy A$this->radius,$this->radius 0 $this->large,1 $this->radius,0 z\" fill=\"$this->remaining_color\" stroke=\"black\" stroke-width=\"1\" fill-opacity=\"1\" /></a>\n";
 
         return;
     }
