@@ -10,7 +10,7 @@
  */
 
 
-class CountriesClass extends statsBaseClass
+class CountriesClass extends StatsBaseClass
 {
     /**
      * ########################

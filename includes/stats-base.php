@@ -1,6 +1,6 @@
 <?php
 
-abstract class statsBaseClass {
+abstract class StatsBaseClass {
 
 /**
  * ###########################
