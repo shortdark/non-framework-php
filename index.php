@@ -1,5 +1,5 @@
 <?php 
-error_reporting(E_ALL);
+error_reporting(0);
 
 include_once "./includes/stats-base.php";
 include_once "./includes/stats-countries.php";

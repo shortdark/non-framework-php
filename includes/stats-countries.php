@@ -22,7 +22,7 @@ class CountriesClass extends statsBaseClass
 
 
     /*
-     * Relative location of the country XML file
+     * Location of the country XML file
      */
     private $country_xmlfile = '/countries/xml/units-per-country.xml';
     private $svg_file = '/countries/includes/html/world-map-svg.inc';

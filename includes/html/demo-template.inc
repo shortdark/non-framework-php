@@ -57,7 +57,7 @@
           <h2 class="sub-header"><?php echo $title; ?></h2>
           <div class="table-responsive" id="contenthome">
             <?php print $content; ?>
-            <?php print $gmd_stats->output_error_string; ?>
+            <?php print $demo->output_error_string; ?>
 
           </div>
         </div>
@@ -74,7 +74,7 @@
           integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
           crossorigin="anonymous"></script>
 
-  <?php if(true == $gmd_stats->mapscript){ ?>
+  <?php if(true == $demo->mapscript){ ?>
       <script>
           $(".test").before("<p>Darker red means higher volume of units</p>");
       </script>
